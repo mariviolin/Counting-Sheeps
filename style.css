@@ -1,0 +1,36 @@
+/* Asegúrate de enlazar la fuente de Google en el HTML */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+/* Aplicando estilo al menú */
+.restaurantMenu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif; /* Fuente para el texto del menú */
+    font-size: 1.2em; /* Tamaño de la fuente */
+    color: #333; /* Color del texto */
+}
+
+.restaurantMenu h2 {
+    font-size: 2em; /* Tamaño de encabezados en el menú */
+    font-weight: bold;
+    color: #8B4513; /* Color marrón para el título */
+    text-align: center;
+    margin: 10px 0;
+}
+
+.restaurantMenu p {
+    font-size: 1em;
+    color: #555; /* Color gris oscuro para la descripción */
+    margin: 5px;
+    text-align: center;
+}
+
+.restaurantMenu .price {
+    font-weight: bold;
+    color: #D2691E; /* Color acaramelado para el precio */
+    font-size: 1.1em;
+}
